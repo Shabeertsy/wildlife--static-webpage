@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wildlife</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- internal css for styling -->
+  <style>
+    .hero {
+      background-image: url("images/main.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+
+    }
+
+    .shadow {
+      background-color: rgb(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100vh;
+
+    }
+
+    .navbar-nav>li {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 9px;
+    }
+
+    .content {
+      margin-top: 30%;
+      display: flex;
+      align-items: center;
+      color: orangered;
+    }
+    .footer a{
+      text-decoration: none;
+      color: #fff;
+      margin-right: 20px;
+    }
+    .footerimg{
+      background-image: url("images/footer.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <!-- hero section with background image -->
+  <section class=" hero">
+    <div class="shadow">
+      <div class="">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class=" ml-2 navbar-brand" href="#">WILDLIFE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="ms-auto navbar-nav mr-auto">
+                <li class=" nav-item active">
+                  <a class="nav-link text-light" href="#">Blog <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-light nav-link" href="#">Contacts</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link text-light" href="#">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="btn  border border-warning nav-link text-light" href="#">Sign In</a>
+                </li>
+              </ul>
+
+            </div>
+          </nav>
+
+          <div class="row content">
+            <h1>Survival</h1>
+            <div class="row">
+              <p style="color:white ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tenetur nostrum
+                facere qui, nihil nisi
+                blanditiis <br> beatae consequatur deserunt id ullam odio at veritatis <br> ex dolor autem odit
+                consectetur fugiat ab?</p>
+              <button class="btn text-light"
+                style="width:90px; margin-left: 15px;background-color: orangered;">Donate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ">
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- slider image section -->
+  <section class="container-fluid pb-5" style=" background-color:grey ;">
+    <div class="container align-items-center">
+      <div class="row text-center pt-5 ">
+        <h1>Latest Article</h1>
+        <p>Breaking news from wild</p>
+      </div>
+      <div class="row pb-5" >
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <img class="d-block w-100" src="./images/deer.webp" alt="First slide">
+                </div>
+                <div class="col">
+                  <img class="d-block w-100" src="./images/bird.jpeg" alt="First slide">
+                </div>
+                <div class="col" >
+                  <img class="d-block h-100 w-100" src="./images/squirrel.webp" alt="First slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row shadow-lg">
+                <div class="col">
+                  <img class="d-block w-100" src="./images/lion.jpeg" alt="First slide">
+                </div>
+                <div class="col">
+                  <img class="d-block h-100 w-100" src="./images/tiger.jpeg" alt="First slide">
+                </div>
+                <div class="col">
+                  <img class="d-block w-100" src="./images/monkey.jpeg" alt="First slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img class="d-block w-100" src="./images/snake.webp" alt="First slide">
+                </div>
+                <div class="col">
+                  <img class="d-block h-100 w-100" src="./images/eagle.webp" alt="First slide">
+                </div>
+                <div class="col">
+                  <img class="d-block w-100 h-100" src="./images/crocodile.jpeg" alt="First slide">
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="bg-dark text-center text-white footerimg">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4 footer">
+        
+       <h3 class=""><a href="">WILDLIFE</a></h3>
+       <a href="">Articles</a>
+       <a href="">About Us</a>
+       <a href="">Learn More</a>
+   
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">wildlife.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
